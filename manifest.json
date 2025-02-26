@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Cyberpunk Dark Mode",
+    "version": "1.0",
+    "description": "Apply a dark, cyberpunk-style theme to all websites.",
+    "permissions": ["activeTab", "tabs", "<all_urls>"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    }
+  }
