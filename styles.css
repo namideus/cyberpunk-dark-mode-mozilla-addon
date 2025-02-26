@@ -1,14 +1,11 @@
-/* Cyberpunk Dark Mode CSS */
-body, html {
+/* Force dark mode on all elements */
+* {
     background-color: #0d0d0d !important;
     color: #00ffcc !important;
+    border-color: #ff00ff !important;
   }
   
-  /* Text and links */
-  p, h1, h2, h3, h4, h5, h6, span, div, a {
-    color: #00ffcc !important;
-  }
-  
+  /* Links */
   a {
     color: #ff00ff !important;
   }
@@ -17,7 +14,7 @@ body, html {
     color: #00ffff !important;
   }
   
-  /* Input fields and buttons */
+  /* Inputs, buttons, and forms */
   input, textarea, select, button {
     background-color: #1a1a1a !important;
     color: #00ffcc !important;
@@ -51,4 +48,10 @@ body, html {
   
   ::-webkit-scrollbar-thumb:hover {
     background: #00ffff;
+  }
+  
+  /* Override inline styles */
+  [style*="background-color"], [style*="color"] {
+    background-color: #0d0d0d !important;
+    color: #00ffcc !important;
   }
