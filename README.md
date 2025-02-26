@@ -1,7 +1,3 @@
-Here’s a concise and engaging `README.md` text for your Firefox add-on:
-
----
-
 # Cyberpunk Dark Mode
 
 🌃 **Transform your browsing experience with a sleek, cyberpunk-inspired dark mode!** This Firefox add-on applies a stylish dark theme to all websites, featuring neon accents and a futuristic vibe. Perfect for night owls, developers, and anyone who loves a little cyberpunk flair in their life.
@@ -43,7 +39,3 @@ If you encounter any issues or have suggestions for improvement, please [open an
 ---
 
 **Happy browsing in style!** 🚀
-
----
-
-Feel free to customize this text further to match your add-on's specifics!
