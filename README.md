@@ -13,11 +13,7 @@
 ---
 
 ## Installation
-1. Download the add-on files.
-2. Open Firefox and go to `about:debugging`.
-3. Click **This Firefox** in the sidebar.
-4. Click **Load Temporary Add-on** and select the `manifest.json` file from the downloaded folder.
-5. Enjoy your new cyberpunk browsing experience!
+The link: https://addons.mozilla.org/en-US/firefox/addon/dark-mode-cyberpunk/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
 ---
 
