@@ -23,15 +23,4 @@ The link: https://addons.mozilla.org/en-US/firefox/addon/dark-mode-cyberpunk/?ut
 
 ---
 
-## Notes
-- Some websites may require additional customization for optimal appearance.
-- Images and videos remain unchanged to ensure they look their best.
-
----
-
-## Support
-If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/your-repo-url/issues) on GitHub.
-
----
-
 **Happy browsing in style!** 🚀
