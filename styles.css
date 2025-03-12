@@ -1,57 +1,57 @@
 /* Force dark mode on all elements */
 * {
-    background-color: #0d0d0d !important;
-    color: #00ffcc !important;
-    border-color: #ff00ff !important;
-  }
-  
-  /* Links */
-  a {
-    color: #ff00ff !important;
-  }
-  
-  a:hover {
-    color: #00ffff !important;
-  }
-  
-  /* Inputs, buttons, and forms */
-  input, textarea, select, button {
-    background-color: #1a1a1a !important;
-    color: #00ffcc !important;
-    border: 1px solid #ff00ff !important;
-  }
-  
-  button:hover {
-    background-color: #ff00ff !important;
-    color: #0d0d0d !important;
-  }
-  
-  /* Tables */
-  table, th, td {
-    background-color: #1a1a1a !important;
-    color: #00ffcc !important;
-    border: 1px solid #ff00ff !important;
-  }
-  
-  /* Scrollbar */
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #0d0d0d;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #ff00ff;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #00ffff;
-  }
-  
-  /* Override inline styles */
-  [style*="background-color"], [style*="color"] {
-    background-color: #0d0d0d !important;
-    color: #00ffcc !important;
-  }
+  background-color: #0d0d0d !important;
+  color: #00ffcc !important;
+  border-color: #ff00ff !important;
+}
+
+/* Links */
+a {
+  color: #ff00ff !important;
+}
+
+a:hover {
+  color: #00ffff !important;
+}
+
+/* Inputs, buttons, and forms */
+input, textarea, select, button {
+  background-color: #1a1a1a !important;
+  color: #00ffcc !important;
+  border: 1px solid #ff00ff !important;
+}
+
+button:hover {
+  background-color: #ff00ff !important;
+  color: #0d0d0d !important;
+}
+
+/* Tables */
+table, th, td {
+  background-color: #1a1a1a !important;
+  color: #00ffcc !important;
+  border: 1px solid #ff00ff !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff00ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffff;
+}
+
+/* Override inline styles */
+[style*="background-color"], [style*="color"] {
+  background-color: #0d0d0d !important;
+  color: #00ffcc !important;
+}

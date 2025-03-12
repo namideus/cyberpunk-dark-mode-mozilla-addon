@@ -1,18 +1,18 @@
 {
-    "manifest_version": 2,
-    "name": "Cyberpunk Dark Mode",
-    "version": "1.0",
-    "description": "Apply a dark, cyberpunk-style theme to all websites.",
-    "permissions": ["activeTab", "tabs", "<all_urls>", "storage"],
-    "background": {
-      "scripts": ["background.js"]
-    },
-    "browser_action": {
-      "default_icon": "icons/icon-48.png",
-      "default_popup": "popup.html"
-    },
-    "icons": {
-      "48": "icons/icon-48.png",
-      "96": "icons/icon-96.png"
-    }
+  "manifest_version": 2,
+  "name": "Cyberpunk Dark Mode",
+  "version": "1.5",
+  "description": "Apply a dark, cyberpunk-style theme to all websites.",
+  "permissions": ["activeTab", "tabs", "<all_urls>", "storage"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/icon-48.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
   }
+}

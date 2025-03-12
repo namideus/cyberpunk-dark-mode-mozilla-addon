@@ -2,13 +2,28 @@
 <html>
 <head>
   <style>
+    /* Cyberpunk font */
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
     body {
-      width: 200px;
-      font-family: Arial, sans-serif;
+      width: 220px;
+      font-family: 'Orbitron', sans-serif;
       text-align: center;
       background-color: #0d0d0d;
       color: #00ffcc;
+      margin: 0;
+      padding: 15px;
+      border: 2px solid #ff00ff;
+      box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
     }
+
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+      margin-bottom: 20px;
+    }
+
     button {
       background-color: #ff00ff;
       color: #0d0d0d;
@@ -16,15 +31,64 @@
       padding: 10px 20px;
       cursor: pointer;
       font-size: 16px;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+      transition: background-color 0.3s, box-shadow 0.3s;
     }
+
     button:hover {
       background-color: #00ffff;
+      box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+
+    select {
+      margin-top: 15px;
+      padding: 8px;
+      background-color: #1a1a1a;
+      color: #00ffcc;
+      border: 1px solid #ff00ff;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14px;
+      box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    select:hover {
+      border-color: #00ffff;
+      box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #00ffff;
+      box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+
+    /* Glowing effect for the dropdown options */
+    option {
+      background-color: #1a1a1a;
+      color: #00ffcc;
+    }
+
+    option:hover {
+      background-color: #ff00ff;
+      color: #0d0d0d;
     }
   </style>
 </head>
 <body>
-  <h1>Dark Mode</h1>
+  <h1>Cyberpunk Mode</h1>
   <button id="toggle-button">Enable</button>
+  <select id="color-scheme">
+    <option value="default">Default</option>
+    <option value="neonPurple">Neon Purple</option>
+    <option value="neonGreen">Neon Green</option>
+    <option value="cyberBlue">Cyber Blue</option>
+    <option value="retroPink">Retro Pink</option>
+    <!-- Add more color schemes as needed -->
+  </select>
   <script src="popup.js"></script>
 </body>
 </html>
