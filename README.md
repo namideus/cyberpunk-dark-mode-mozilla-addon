@@ -23,4 +23,7 @@ The link: https://addons.mozilla.org/en-US/firefox/addon/dark-mode-cyberpunk/?ut
 
 ---
 
+![image](https://github.com/user-attachments/assets/d9b9e715-2517-4b1f-bc4d-618339785c01)
+
+
 **Happy browsing in style!** 🚀
